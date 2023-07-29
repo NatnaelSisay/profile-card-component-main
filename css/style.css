@@ -34,7 +34,7 @@ body {
 	/* outline: 1px solid black; */
 	background-image: url(../images/bg-pattern-top.svg),
 		url(../images/bg-pattern-bottom.svg);
-	background-position: top -60% left -30vw, bottom -60% right -30vw;
+	background-position: right 52vw bottom 35vh, left 48vw top 52vh;
 	background-size: 100%, 100%;
 	background-repeat: no-repeat;
 
@@ -111,13 +111,4 @@ body {
 	font-weight: var(--fw-bold);
 
 	color: var(--clr-primary-2);
-}
-
-@media (min-width: 600px) {
-	body {
-		background-image: url(../images/bg-pattern-top.svg),
-			url(../images/bg-pattern-bottom.svg);
-		background-position: top -80% left -50vw, bottom -300% right -50vw;
-		background-size: 100%, 100%;
-	}
 }
